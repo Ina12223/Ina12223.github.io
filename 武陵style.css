@@ -1,0 +1,152 @@
+html, body{/* footer置底 */
+    height: 100%;/* 外層高度100% */
+    margin: 0;
+}
+.wrapper{/* footer置底 */
+    min-height: 100%;/* 外層高度100% */
+    margin-bottom: -50px;
+}
+.contant{/* footer置底 */
+    padding-bottom: 50px; /*避免文字超出瀏覽器時，內容區塊不會和footer打架*/
+    margin: 20px 20px;
+}
+
+
+.服裝 figure{
+    text-align: center;
+    width: 100%;
+    background-color: thistle;
+
+}
+
+.服裝 h1{
+    font-size: 60px;
+    
+}
+
+.幹部{
+    text-align: center;
+}
+
+.幹部自介 {
+    display: flex;
+    margin: 10px 10px;    
+}
+
+
+
+
+
+
+.header{
+    background-color: black;
+    font-size: 20px;  
+    padding: 6px 6px ;
+    display: flex;         
+
+
+}
+
+.header .logo{
+    padding: 10px 0;
+}
+.header nav {
+    text-align: right;
+    width: 100%;
+
+}
+.武陵高中美術社{
+    width: 280px;
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.header nav a{
+
+    text-decoration: none;
+    color: white;
+    line-height: 52px;
+    display: inline-block;
+    width: 100px;
+    margin: 10px 10px;
+    text-align: center;
+
+}
+
+.header nav a:hover{/* 被觸碰到後的變化 */ 
+    background-color: violet;
+}
+
+.banner img{
+    width: 100%;
+    display: block;
+
+}
+
+
+.最新公告{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.公告區域{
+    text-align: left;
+    background-color:#E8CCFF;
+    width: 700px;
+    height: 900px;
+    margin: 10px auto;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 50px; /*設定footer本身高度*//* footer置底 */
+
+}
+
+.footer div{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    
+    
+
+}
+
+.footer ul{
+    text-align: center;
+    width: 100%;
+}
+
+
+.footer div ul li{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    
+}
+
+.h11{
+    font-size: 18px;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
