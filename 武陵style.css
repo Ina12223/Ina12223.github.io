@@ -28,10 +28,26 @@ html, body{/* footer置底 */
     text-align: center;
 }
 
-.幹部自介 {
+.幹部 .幹部自介 {
     display: flex;
-    margin: 10px 10px;    
+    margin: 10px 10px;
+    font-size: 20px;    
 }
+
+.幹部自介 .幹部自介細項{
+    width: 50%;
+}
+
+.幹部自介 .text{
+    text-align: left;
+}
+.幹部自介 .pic{
+    
+    text-align: right;
+    margin: 10px;
+}
+
+
 
 
 
